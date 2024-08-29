@@ -12,75 +12,29 @@
             --color: rgba(193, 17, 25, 1)
         }
 
-        html {
-            font-size: 16px;
-        }
+        .curved-div {
 
-        .main_section {
-
-            color: white;
-            padding: 0rem 2.5rem 2.5rem 2.5rem;
             width: 100%;
-            flex: 1;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-
-        }
-
-        .content {
+            height: 63px;
             min-width: 206px;
-            max-width: 300px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            text-align: center;
 
+            border-radius: 50% 50% 0% 0%;
+            top: -31px;
+            position: relative;
+            background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
         }
 
-        .content p {
-            margin-bottom: 1rem;
-            font-size: 0.7rem;
-
+        .curved-2 {
+            width: 100%;
+            min-width: 206px;
+            height: 60px;
+            border-radius: 50% 50% 0% 0%;
+            z-index: 2;
+            background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
+            position: relative;
+            bottom: -3px;
         }
-
-        .content h1 {
-            font-size: 1.8rem;
-            font-weight: 700;
-            margin-bottom: 0.5rem;
-
-        }
-
-        .content span{
-            display: flex;
-        }
-        #email {
-            border-radius: 0.3rem;
-            height: 2rem;
-            padding: 0.3rem;
-            margin-right: 0.3rem;
-            background-color: black;
-            width:10rem ;
-            font-size: 0.6rem;
-            box-shadow: none;
-            outline:white;
-            border: 1px solid wheat;
-
-        }
-
-        #get_started {
-            height: 2rem;
-            background-color: var(--color);
-            color: white;
-            border-radius: 0.3rem;
-            width: 5rem;
-            font-size: 0.6rem;
-            box-shadow: none;
-            outline: none;
-            border: none;
-        }
+        
     </style>
 </head>
 
@@ -118,6 +72,11 @@
             </section>
         </div>
     </main>
+    <div class="curved-div">
+        <div class="curved-2">
+
+        </div>
+    </div>
 </body>
 
 </html>
