@@ -1,0 +1,9 @@
+.select_tags select {
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    margin-top: 0.7rem;
+    font-weight: 600;
+    width: 100%;
+}
