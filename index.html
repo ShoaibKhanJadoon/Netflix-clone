@@ -16,7 +16,7 @@
 
         .fill {
             width: 100%;
-            height: 7vh;
+            height: 20vh;
             position: fixed;
             background-color: black;
             bottom: 0rem;
@@ -48,6 +48,71 @@
         .reason1 p {
 
             color: rgba(255, 255, 255, 0.7);
+        }
+
+        details {
+            padding: 1rem;
+            width: 96%;
+            background-color: #494646;
+            color: white;
+            margin: 0rem 0.5rem 1rem 0.5rem;
+
+
+        }
+
+        summary {
+            width: 100%;
+            background-color: rgb(73, 70, 70);
+            color: white;
+
+            display: flex;
+            height: 2.5rem;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .read_to_watch {
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 4rem;
+            width: 100%;
+        }
+
+        .email_get_started {
+            margin-top: 1rem;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .read_email {
+            border-radius: 0.3rem;
+            height: 3rem;
+            padding: 0.3rem;
+            margin-right: 0.3rem;
+            background-color: black;
+            width: 60%;
+            font-size: 0.6rem;
+            box-shadow: none;
+            outline: white;
+            border: 1px solid wheat;
+        }
+
+        .read_get_started {
+            height: 3rem;
+            background-color: var(--color);
+            color: white;
+            border-radius: 0.3rem;
+            width: 6rem;
+            font-size: 0.6rem;
+            box-shadow: none;
+            outline: none;
+            border: none;
         }
     </style>
 </head>
@@ -186,7 +251,79 @@
 
         </div>
 
+        <!-- ---------------------------------------------------------------------------------- -->
+        <section class="FAQ">
+            <h3>Frequently Asked Questions</h3>
+            <details>
+                <summary>
+                    <h4>Click to see more details</h4>
+                    <h2>+</h2>
+                </summary>
+                <p>
+                    Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime,
+                    documentaries, and more on thousands of internet-connected devices.
+
+                    You can watch as much as you want, whenever you want without a single commercial – all for one low
+                    monthly price. There's always something new to discover and new TV shows and movies are added every
+                    week!
+                </p>
+            </details>
+            <details>
+                <summary>
+                    <h4>Click to see more details</h4>
+                    <h2>+</h2>
+                </summary>
+                <p>
+                    This is the detailed content that is initially hidden. You can include any HTML content here, such
+                    as text, images, or even other HTML elements like lists or tables.
+                </p>
+            </details>
+            <details>
+                <summary>
+                    <h4>Click to see more details</h4>
+                    <h2>+</h2>
+                </summary>
+                <p>This is the detailed content that is initially hidden. You can include any HTML content here, such as
+                    text, images, or even other HTML elements like lists or tables.</p>
+            </details>
+            <details>
+                <summary>
+                    <h4>Click to see more details</h4>
+                    <h2>+</h2>
+                </summary>
+                <p>This is the detailed content that is initially hidden. You can include any HTML content here, such as
+                    text, images, or even other HTML elements like lists or tables.</p>
+            </details>
+            <details>
+                <summary>
+                    <h4>Click to see more details</h4>
+                    <h2>+</h2>
+                </summary>
+                <p>This is the detailed content that is initially hidden. You can include any HTML content here, such as
+                    text, images, or even other HTML elements like lists or tables.</p>
+            </details>
+            <details>
+                <summary>
+                    <h4>Click to see more details</h4>
+                    <h2>+</h2>
+                </summary>
+                <p>This is the detailed content that is initially hidden. You can include any HTML content here, such as
+                    text, images, or even other HTML elements like lists or tables.</p>
+            </details>
+        </section>
+        <div class="read_to_watch">
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <div class="email_get_started">
+
+                <input class="read_email" placeholder="Email address" type="email" name="" id="">
+
+                <button class="read_get_started ">Get Started ></button>
+
+            </div>
+        </div>
     </section>
+
+
     <div class="fill"></div>
 
 
