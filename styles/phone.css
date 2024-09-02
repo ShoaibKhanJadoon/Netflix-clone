@@ -25,9 +25,9 @@
 }
 
 .read_email {
-    width: 100%;
+    width: 100% !important;
     margin-bottom: 0.7rem;
-    height: 2.5rem;
+    height: 2.5rem !important;
 }
 
 .read_get_started {
